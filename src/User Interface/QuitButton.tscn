@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://src/User Interface/QuitButton.gd" type="Script" id=1]
+
+[node name="QuitButton" type="Button"]
+margin_top = 109.0
+margin_right = 238.0
+margin_bottom = 214.0
+size_flags_vertical = 3
+text = "Quit"
+script = ExtResource( 1 )
+
+[connection signal="button_up" from="." to="." method="_on_button_up"]
